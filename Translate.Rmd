@@ -1,0 +1,160 @@
+---
+title: "Rubin访谈"
+author: "边蓓蕾"
+date: "2017/2/25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Abstract. Donald Bruce Rubin is John L. Loeb Professor of Statistics at Harvard University. He has made fundamental contributions to statistical methods for missing data, causal inference, survey sampling, Bayesian in- ference, computing and applications to a wide range of disciplines, including psychology, education, policy, law, economics, epidemiology, public health and other social and biomedical sciences.
+
+摘要：Donald Bruce Rubin是哈佛大学统计系...教授。他在缺失数据，因果推断，抽样调查，贝叶斯推断等统计学方法上做了许多基础贡献。且在心理学，教育，政策，法律，经济，流行病，公共卫生河其他社会及生物医学领域的计算及应用上有许多贡献。
+
+Don was born in Washington, D.C. on December 22, 1943, to Harriet and Allan Rubin. One year later, his family moved to Evanston, Illinois, where he grew up. He developed a keen interest in physics and math- ematics in high school. In 1961, he went to college at Princeton University, intending to major in physics, but graduated in psychology in 1965. He began gradu- ate school in psychology at Harvard, then switched to Computer Science (MS, 1966) and eventually earned a Ph.D. in Statistics under the direction of Bill Cochran in 1970. After graduating from Harvard, he taught for a year in Harvard’s Department of Statistics, and then in 1971 he began working at Educational Testing Ser- vice (ETS) and served as a visiting faculty member at Princeton’s new Statistics Department. He held several visiting academic appointments in the next decade at Harvard, UC Berkeley, University of Texas at Austin and the University of Wisconsin at Madison. He was a full professor at the University of Chicago in 1981– 1983, and in 1984 moved back to the Harvard Statistics Department, where he remains until now, and where he served as chair from 1985 to 1994 and from 2000 to 2004.
+
+Don在Harriet和Allan Rubin之后于1943年12月22日出生于华盛顿。一年后，举家搬到伊利诺伊Evanston，他在那里长大。他在高中发展了对物理和数学浓厚的兴趣。1961年，就读于普林斯顿大学，打算主修物理，却在1965年毕业于心理系。然后他就读于哈佛大学心理学研究生院，在1966年转到计算机系硕士并最终在Bill Cochran的指导下，于1970年获得统计学博士学位。从哈佛毕业以后，他在哈佛大学统计系担任一年教职，1971年开始在ETS工作并且是普林斯顿大学新的统计系的访问学者。十年中，他在哈佛大学，加州大学伯克利分校，得克萨斯大学奥斯汀分校，威斯康星麦迪逊分校举办过多个学术会议。在1981-1983年间，他是芝加哥大学的全职教授，于1984年重返哈佛大学统计系工作至今，并分别在1985-1994年，2000-2004年担任主席。
+
+Don has advised or coadvised over 50 Ph.D. stu- dents, written or edited 12 books, and published nearly 400 articles. According to Google Scholar, by May 2014, Rubin’s academic work has 150,000 citations, 16,000 in 2013 alone, placing him at the top with the most cited scholars in the world.
+
+Don指导和共同指导超过50名博士生，撰写和编辑12本著作，发表近400篇文章。根据谷歌学术到2014年5月的统计，Rubin的学术成果以有15万次引用，单单2013年就有1万6千次引用，在全球学者中名列前茅。
+
+For his many contributions, Don has been hon- ored by election to Membership in the US National Academy of Sciences, the American Academy of Arts and Sciences, the British Academy, and Fellowship in the American Statistical Association, Institute of Mathematical Statistics, International Statistical Insti- tute, Guggenheim Foundation, Humboldt Foundation and Woodrow Wilson Society. He has also received the Samuel S. Wilks Medal from the American Sta- tistical Association, the Parzen Prize for Statistical In- novation, the Fisher Lectureship and the George W. Snedecor Award of the Committee of Presidents of Sta- tistical Societies. He was named Statistician of the Year by the American Statistical Association’s Boston and Chicago Chapters. In addition, he has received hon- orary degrees from Bamberg University, Germany and the University of Ljubljana, Slovenia.
+
+由于他的诸多贡献，Don被推选为美国国家科学院成员，美国艺术与科学学院成员，英国国家学术院成员，美国统计学会理事，国际数理统计协会理事，国际统计学会理事，古根海姆基金会理事，洪堡基金会理事，Woodrow Wilson Society理事。他获得了美国统计学会Samuel S. Wilks奖，统计创新奖Parzen Prize，the Fisher Lectureship and the George W. Snedecor Award of the Committee of Presidents of Sta- tistical Societies.他被美国统计学会的波士顿和芝加哥篇章誉为年度统计学家。此外，他获得了Bamberg University, Germany and the University of Ljubljana, Slovenia的荣誉学位。
+
+Besides being a statistician, he is a music lover, au- diophile and fan of classic sports cars.
+
+除了成为统计学家，他还是一个音乐爱好者，古典乐，体育，汽车发烧友。
+
+This interview was initiated on August 7, 2013, dur- ing the Joint Statistical Meetings 2013 in Montreal, in anticipation of Rubin’s 70th birthday, and completed at various times over the following months.
+
+本访谈于2013年8月7日进行，在2013年JSM大会期间，Rubin70岁生日之时，在接下来的几个月的不同时间完成。
+
+# 开始
+
+Fan: Let’s begin with your childhood. I understand you grew up in a family of lawyers, which must have heavily influenced you intellectually. Can you talk a little about your family?
+
+Fan：让我们从你的小时候说起吧。我知道你出生于一个律师家庭，这肯定对你有深远的影响。能不能介绍一下你的家庭？
+
+Don: Yes. My father was the youngest of four broth- ers, all of whom were lawyers, and we used to have stimulating arguments about all sorts of topics. Prob- ably the most argumentative uncle was Sy (Seymour Rubin, senior partner at Arnold, Fortas and Porter, diplomat, and professor of law at American Univer- sity), from D.C., who had framed personal letters of thanks for service from all the presidents starting with Harry Truman and going through Jerry Ford, as well as from some contenders, such as Adlai Stevenson, and various Supreme Court Justices. I found this impres- sive but daunting. The relevance of this is that it clearly created in me a deep respect for the principles of our le- gal system, to which I find statistics highly relevant— this has obviously influenced my own application of statistics to law, for example, concerning issues as di- verse as the death penalty, affirmative action and the tobacco litigation.
+
+Don：是的。我父亲是他们4兄弟中最年轻的，他们4兄弟都是律师，我们过去在所有的话题上都有激烈的辩论。可能最好辩的是Sy，他在华盛顿，他从总统那里获得了许多感谢信，同样也从一些竞争对手获得了很多感谢信，如Adlai Stevenson和不同的高级法庭。这让我印象深刻，但也让我害怕。原因是，这让我对我们的法律体系所遵守的原则印象深刻，在这里面，我发现统计学与它高度相关，这明显触动我做了统计学在法律上的应用，例如，把问题考虑成包括死刑，平权法案和烟草诉讼。
+
+Fabri: We will surely get back to these issues later, but was there anyone else who influenced your interest in statistics?
+
+Fabri: 等下我们再回到这些问题，但还有其他人影响了你对统计学的兴趣吗？
+
+Don: Probably the most influential was Mel, my mother’s brother, a dentist (then a bachelor). He loved to gamble small amounts, either in the bleachers at Wrigley Field, betting on the outcome of the next pitch, while watching the Cubs lose, or at Arlington Race track, where I was taught at a young age how to read the Racing Form and estimate the “true” odds from the various displayed betting pools, while losing two dol- lar bets. Wednesday and Saturday afternoons, during the warm months when I was a preteen, were times to learn statistics—even if at various bookie joints that were sometimes raided. As I recall, I was a decent stu- dent of his, but still lost small amounts.
+
+Don：可能影响最深的是我舅舅，一名牙医。他喜欢小赌，在芝加哥箭牌球场的露天看台看到比赛输了然后开始赌一下场比赛的结果，或者在阿灵顿赛道，在我很小的时候，当我输了2刀的时候，被教导如何阅读赛马新闻，从不同的赌注估计胜算。周三和周六下午，当我还是个青春期少年的时候，在温暖的月份，我就开始学习统计，即使不同的赌注下有时候会被突然袭击。根据我的回忆，我那时是他相当优秀的学生，但是仍然输了一小部分。
+
+There were two other important influences on my statistical interests from the late 1950s and early 1960s. First, there was an old friend of my father’s from their government days together, a Professor Emeritus of Economics at UC Berkeley, George Mehren, with whom I had many entertaining and educational (to me) arguments, which generated a respect for economics that continues to grow to this day. And second, my wonderful teacher of physics at Evanston Township High School—Robert Anspaugh—who tried to teach me to think like a real scientist, and how to use mathe- matics in the pursuit of science.
+
+还有两个对我的统计学兴趣有很重要的影响发生在20世纪50年代末和60年代触。第一个是我父亲在政府的老朋友，加州大学伯克利分校经济系的退休教授，George Mehren，跟着他学习，我有了许多文化和教育上的观点，这让我对经济学产生尊敬，从那时一直持续到今天。第二个是我在高中的物理老师，他试着教导我像一个科学家一样思考问题，教我如何用数学解决科学问题。
+
+By the time I left high school for college, I appre- ciated some statistical thinking from gambling, some scientific thinking from physics, and I had deep respect for disciplines other than formal mathematics, in par- ticular, physics and the law. These, in hindsight, are exposures that were crucial to the kind of statistics to which I gravitated in my later years. More details of the influence of my mentors can be found in Rubin (2014b).
+
+在我离开高中进入大学的时候，我很感激从赌博中获得的统计学思考，从物理中获得的科学思考，我对除了数学以外的很多学科产生了尊敬，特别是物理和法律。这些在事后都是我后来被统计学吸引的关键因素。关于更多影响我的导师的细节可以从这里找到（Rubin(2014b)）。
+
+# COLLEGE TIME AT PRINCETON
+
+# 在普林斯顿的大学时代
+
+Fan: You entered Princeton in 1961, first as a physics major, but later changed to psychology. Why the change and why psychology?
+
+Fan: 你在1961年进入普林斯顿，开始主修物理，但后来变成了心理学，这是为什么？
+
+Don: That’s a good question. Inspired by Anspaugh, I wanted to become a physicist. I was lined up for a BA in three years when I entered Princeton, and unknown to me before I entered, also lined up for a crazy plan to get a Ph.D. in physics in five years, in a program being reconditely planned by John Wheeler, a very well-known professor of physics there (and Richard Feynman’s Ph.D. advisor years earlier). In retrospect, this was a wildly over-ambitious agenda, at least for me. For a combination of complications, including the Vietnam War (and its associated drafts) and Profes- sor Wheeler’s sabbatical at a critical time, I think no one succeeded in completing a five-year Ph.D. from entry. In any case, there were many kids like me at Princeton then, who, even though primarily interested in math and physics, were encouraged to explore other subjects. I did that, and one of the courses I took was on personality theory, taught by a wonderful professor, Silvan Tomkins, who later became a good friend. At the end of my second year, I switched from Physics to Psychology, where my mathematical and scientific background seemed both rare and appreciated—it was an immature decision (not sure what a mature one would have been), but a fine one for me because it in- troduced me to some new ways of thinking, as well as to new fabulous academic mentors.
+
+Don：这个问题好。在Anspaugh的鼓舞下，我想成为一个物理学家。我进入普林斯顿被排了3年拿到BA学位，在我进来之前我并不知道，而且被安排了一个疯狂的5年拿到物理学博士的计划，这是物理系一个非常有名的John Wheeler教授做的计划。回想起来，对于我来说，那是一个雄心勃勃的日程。结合一些其他的复杂因素，包括越南战争，Wheeler教授在关键时刻休假，我觉得没人能在5年内完成博士学位。不管怎样，在普林斯顿还有很多孩子和我一样，即使开始对数学和物理感兴趣，也被鼓励去其他学科探索。我就是这么做的，我上的一门课叫人格理论，是一个很好的教授教的，后来我们成为了朋友。在第二学年末，我从物理转到了心理系，在那，我的数学和科学背景看起来都很弱，喜欢心理学是一个不成熟的决定（我也不确定什么是成熟的），但对我来说，好的是，它带给我一些全新的思考方式，也让我认识了一些新的著名学者。
+
+Fabri: You had some computing skills which were uncommon then, right? So you started to use comput- ers quite early.
+
+Fabri: 后来你有了一些不寻常的计算能力对吗？所以你很早就开始用计算机了。
+
+Don: Yes. Sometime between my first and second year at Princeton, I taught myself Fortran. As you men- tioned, those skills were not common, even at places like Princeton then.
+
+Don：是的。我在普林斯顿的第一和第二学年期间，我自学了Fortran。就像你说的，这些技能不常见，就算是在当时的普林斯顿。
+
+Fabri: Was learning Fortran just a matter of having fun or did you actually use these skills to solve prob- lems?
+
+Fabri: 你当时学Fortran是兴趣还是真的要用这些技能解决问题？
+
+Don: It was for solving problems. When I was in the Psychology Department, I was helping to support myself by coding some of the early batch computer packages for PSTAT, a Princeton statistical software package, which competed with BMDP of UCLA at the time. I also wrote various programs for simulating hu- man behavior.
+
+Don：是为了解决问题。当时我在心理系，我为了支持自己的学业，为PSTAT编写计算机软件包，那是普林斯顿的一个统计软件包，当时和UCLA的BMDP是竞争关系。我也写了一些模拟人类行为的程序。
+
+Fan: In your senior year at Princeton, you applied for Ph.D. programs in psychology and were accepted by several very good places.
+
+Fan：你在普林斯顿高年级的时候，申请了心理学的博士项目，并且被许多不错的地方录取了。
+
+Don: Yes, I was accepted by Stanford, Michigan and Harvard. I met some extraordinary people during my visits to these programs. I went out to Stanford first, and met William Estes, a quiet but wonderful profes- sor with strong mathematical skills and a wry wit, who later moved to Harvard. Michigan had a very strong mathematical psychology program, and when I visited in the spring of 1965, I was hosted primarily by a very promising graduating Ph.D. student, Amos Tversky, who was doing extremely interesting work on human behavior and how people handled risks. In later years, he connected with another psychologist, Daniel Kah- neman, and they wrote a series of extremely influential papers in psychology and economics, which eventually led to Kahneman’s winning the Nobel Prize in Eco- nomics in 2002; Tversky passed away in 1996 and was thus not eligible for the Nobel Prize. Kahneman (who recently was awarded a National Medal of Science by President Obama) always acknowledges that the Nobel Prize was really a joint award (to Tversky and him). I was on a committee sometime last year with Kahne- man, and it was interesting to find out that I had known Tversky longer than he had.
+
+Don：是的，我被斯坦福，密歇根和哈佛录取了。在我访问这些项目的过程中认识了很多杰出人物。我先去了斯坦福，认识了William Estes，一个很安静的但是很厉害的教授，他有很强的数学技能并且风趣幽默。后来他去了哈佛。密歇根有很强的数学心理学项目，当我1965年春天访问的时候，我被一个非常有前途的博士生接待了，Amos Tversky，当时在做非常有趣的人类行为和人是如何处理风险的项目。后来的几年，他和另一个心理学家Daniel Kahneman一起在心理学和经济学领域写了一系列极有影响力的文章，最终使得Kahneman在2002年获得诺贝尔经济学奖。Tversky在1996年去世，因此没有资格拿到诺贝尔奖。Kahneman经常致谢那个诺贝尔奖是一个共同的奖项。去年我和Kahneman一起作为评审，非常有意思的是，发现我认识Tversky的时间比他长。
+
+Fan: But ultimately you chose Harvard.
+
+Fan: 但最终你选择了哈佛。
+
+Don: Well, we all make strange decisions. The rea- son was that I had an east-coast girlfriend who had an- other year in college.
+
+Don：我们所有人都做奇怪的决定。原因是我在东海岸的女朋友还要再读一年。
+
+# GRADUATE YEARS AT HARVARD
+
+# 在哈佛的研究生时代
+
+Fabri: You first arrived at Harvard in 1965 as a Ph.D. student in psychology, which was in the Department of Social Relations then, but were soon disappointed, and switched to computer science. What happened?
+
+Fabri: 1965年你最初到哈佛是心理学系的博士生，社会关系学院，但是很快就失望，并转到了计算机系，发生了什么？
+
+Don: When I visited Harvard in the summer of 1965, some senior people in Social Relations appeared to find my background, in subjects like math and physics, at- tractive, so they promised me that I could skip some of the basic more “mathy” requirements. But when I arrived there, the chair of the department, a sociolo- gist, told me something like, “No, no, I looked over your transcript and found your undergraduate educa- tion scientifically deficient because it lacked ‘methods and statistics’ courses. You will have to take them now or withdraw.” Because of all the math and physics that I’d had at Princeton, I felt insulted! I had to get out of there. Because I had independent funding from an NSF graduate fellowship, I looked around. At the time, the main applied math appeared being done in the Di- vision of Engineering and Applied Physics, which re- cently became the Harvard’s “School of Engineering and Applied Sciences.” The division had several sec- tions; one of them was computer science (CS), which seemed happy to have me.
+
+Don：我1965年夏天访问哈佛大学的时候，社会关系系高年级的人知道了我的背景，数学、物理是很吸引人的学科，他们向我保证可以跳过一些数学类的基础课的要求。但当我到了那，系主任，一个社会学家告诉我，“不，不，我看了你的成绩单，觉得你的本科教育缺乏科学性，因为缺少‘方法和统计’这样的课程，你必须要修，不然就退学”。由于我在普林斯顿上了所有数学和物理的课程，我感觉很侮辱。我必须要离开那。由于我拿了NSF的研究生全额奖学金，我开始寻找。在那时，工程和应用物理系新开了应用数学，它最近成为了哈佛的工程和应用科学学院。它有很多部分，其中一个就是计算机，看起来很愿意接收我。
+
+Fan: But you got bored again soon. Was this because you found the problems in CS not interesting or chal- lenging enough?
+
+Fan: 但是你很快再次觉得很无聊。是因为你觉得计算机没意思或者不够挑战吗？
+
+Don: No, not really that. There were several reasons. First, there was a big emphasis on automatic language translation, because it was cold war time, and it ap- peared that CS got a lot of money for computational linguistics from ARPA (Advanced Research Projects Agency), now known as DARPA. The Soviet Union, from behind the iron curtain, produced a huge num- ber of documents in Russian, but evidently there were not enough people in the US to translate them. A com- plication is that there are sentences that you could not translate without their context. I still remember one example: “Time flies fast,” a three-word sentence that has three different meanings depending on which of the three words is the verb. If this three-word sentence cannot be automatically translated, how can one get an automatic (i.e., by computer) translation of a complex paragraph? Related to this was Noam Chomsky’s work on transformational grammars, down the river at MIT.
+
+Don：不，不是那样的。有好多因素。首先，它很强调自动化的语言翻译，因为那是冷战时期，计算机系得到了来自ARPA（高级研究项目代理，现在是DARPA）的很多经费用于计算语言。苏联，从铁幕背后生产了大量的文件，但很显然美国没有足够的人手去翻译。复杂的是，有些句子没有语境的情况下你无法翻译。我记得一个例子：“时光飞逝”，一个三个单词的句子，可能有三个意思，这取决于这三个单词哪个是动词。如果这个三个单词的句子不能被自动化地翻译，又怎么能自动化翻译一个复杂的段落呢？Noam Chomsky的翻译语法跟这相关，在麻省理工。
+
+Second, although I found some real math courses and the ones in CS on mathy topics, such as computa- tional complexity, which dealt with Turing machines, Godel’s theorem, etc., interesting, I found many of the courses dull. Much of the time they were about programming. I remember one of my projects was to write a program to project 4-dimensional figures into 2- dimensions, and then rotate them using a DEC PDP-1. It took an enormous number of hours. Even though my program worked perfectly, I felt it was a gigantic waste of time. I also got a C+ in that course because I never went to any of the classes. Now, having dealt with many students, I would be more sympathetic that I deserved a C+, but not when I was a kid. At that time, I figured there must be something better to do than rotating 4D objects and getting a C+. But marching through rice paddies in Vietnam or departing for some- where in Canada didn’t seem appealing. So after pick- ing up a MS degree in CS in 1966, although I stayed another year in CS, I was ready to try something else.
+
+其次，虽然我发现一些数学课程和一些计算机领域的数学主题，如计算复杂度，用来解决图灵机，哥德尔定理等，这些很有趣，但我发现许多课程很无聊。大部分都和编程有关。我记得一个项目是写一个程序将一个4维图片转成二维，然后用一个DEC PDP-1做旋转。花费了我好几个小时。即使我的程序很完美，我仍然觉得这很浪费时间。我在那门课得了C+，因为我从来没去上过课。现在，看着许多学生，我觉得我应该得C+，而不是因为当时我是个孩子。那个时候，我想一定会有比把4D物体旋转并得到一个C+更好的事情去做。但是参加越南战争，或者离开去加拿大看起来都没有吸引力。所以1966年拿到计算机硕士学位后，我准备尝试些别的。
+
+Fabri: How did statistics end up in your path?
+
+Fabri: 统计是如何成为你的最终之路的？
+
+Don: A summer job in Princeton in 1966 led to it. I did some programming for John Tukey in For- tran, LISP and COBOL. I also did some consulting for a Princeton sociology professor, Robert Althauser, basically writing programs to do matched sampling, matching blacks and whites, to study racial disparity in dropout rates at Temple University. I had a conversa- tion with Althauser about how psychology and then CS weren’t working out for me at Harvard. Because Bob was doing some semi-technical things in sociology, he knew of Fred Mosteller, although not personally, and also knew that Harvard had a decade-old Statistics Department that was founded in 1957. He suggested that I contact Mosteller. After getting back to Harvard, I talked to Fred, and he suggested that I take some stat courses. So in my third year in Harvard, I took mostly stat courses and did OK in them. And the Stat depart- ment said “Yes” to me. It also helped to have my own NSF funding, which I had from the start; they kept re- newing for some reason, showing their bad taste prob- ably, but it worked out well for me. Anyway, at the end of my third year at Harvard, I had switched to statistics, my third department in four years.
+
+Don：1966年夏天在普林斯顿的工作成就了这件事。我用Fortran,LISP和COBOL为John Tukey写了一些程序。我也为普林斯顿社会学教授Robert Althauser做了一些咨询，写一些程序匹配抽样，匹配黑人和白人，研究天普大学辍学率的种族差异。我跟Althauser谈过关于心理学是怎样的以及为什么计算机专业在哈佛不适合我。因为Bob在社会学上做一些半技术的东西，他认识Fred Mosteller，虽然不是个人名义，也知道哈佛有一个1957年成立的统计系。他建议我联系Mosteller。在回到哈佛后，我和Fred谈了一下，他建议我修一些统计课程。所以在第三年，我大部分上的都是统计课程并且还不错。统计系接收了我并帮我拿到我自己的NSF资助，从我一开始入学就有。由于某些原因，他们一直重新开始，可能显示了他们的坏品味，但是对我来说很好。不管怎样，在哈佛的第三年末，我转到了统计系，四年中的第三个系。
+
+Fabri: Besides Mosteller, who else was on the statis- tics faculty then? It was a quite new department, as you said.
+
+Fabri: 除了Mosteller，统计系还有哪些老师？你说，它是个很新的系。
+
+Don: The other senior people were Bill Cochran and Art Dempster, who had recently been promoted to tenure. The junior ones were Paul Holland; Jay Gold- man, a probabilist; and Shulamith Gross from Berke- ley, a student of Erich Lehmann’s.
+
+Don：其他的高级教师还有Bill Cochran和Art Dempster，他们最近升为终身教授。初级的有Paul Holland，Jay Goldman是概率论专家，Shulamith Gross来自伯克利，Erich Lehmann的学生。
+
+Fabri: And you decided to work with Bill.
+
+Fabri: 你决定和Bill合作。
+
+Don: Actually, I first talked to Fred. Fred always had a lot of projects going; one was with John Tukey and he proposed that I work on it. I told him that I had this matched sampling project of my own, and he sug- gested that I talk to Cochran—Cochran a few years ear- lier was an advisor for the Surgeon General’s report on smoking and lung cancer. It was obviously based on observational data, not on randomized experiments, and Fred said that Cochran knew all about these issues in epidemiology and biostatistics. So I went to knock on Bill’s door. He answered with a grumpy sounding “yes,” I went in and he said, “No, not now, later!” So I thought “Hmmm, rough guy,” but actually he was a sweetheart, with a great Scottish dry sense of humor and a love of scotch and cigarettes (I understand the former, although not the latter).
+
+Don：事实上，我先找了Fred谈话。他总是有很多项目在进行，其中一个是和John Tukey，他建议我做这个。我告诉他我自己做过这个抽样的项目了，他建议我去找Cochran—Cochran谈，几年前是为Surgeon General汇报过吸烟和肺癌项目的。很明显是基于观察数据，不是随机试验，Fred说Cochran知道所有的关于流行病和生物统计的问题。所以我去敲了Bill的门。他用脾气暴躁的声音说了‘yes’，我进去了他说，“不，不是现在，一会儿！”。然后我想，“嗯，粗人”。但事实上他心地善良，有很强的苏格兰幽默感，喜欢苏格兰威士忌和香烟（前者我理解，后者我不能理解）
+
+Fabri: Cochran did have a lasting influence on you, right?
+
+Fabri: Cochran对你产生了持续影响，对吗？
+
+Don: Yes, he had a tremendous influence on me. Once I was doing some irrelevant math on matching, which I now see popping up again in the literature. I showed that to Bill, and he asked me, “Do you think that’s important, Don?” I said, “Well, I don’t know.” Then he said, “It is not important to me. If you want to work on it, go find someone else to advise you. I care about statistical problems that matter, not about making things epsilon better.” Another person who was very influential was Art Dempster. Once I did some con- sulting for Data Text, a collection of batch computer programs like PSTAT or BMDP. I was designing pro- grams to calculate analyses of variance, do regressions, ordinary least squares, matrix inversions, all when you have, in hindsight, limited computing power. For ad- vice on some of those I talked to Dempster, who al- ways has great multivariate insights based on his deep understanding of geometry—very Fisherian.
+
+Don：是的，他对我有巨大的影响。
