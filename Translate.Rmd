@@ -169,11 +169,147 @@ Don: 当我和Althauser一起研究种族差异问题的时候，我总是跟他
 
 Fabri: So you were only doing descriptive compar- isons in your Ph.D. thesis, and the notation of potential outcomes was not there.
 
-Fabri：所以你在你的博士论文里只做了描述性的比较，
+Fabri：所以你在你的博士论文里只做了描述性的比较，潜在的结果注释不在里面。
 
 Don: Partly correct. At that time, the notation of po- tential outcomes was in my mind, because that is the way that Cochran initiated discussions of randomized experiments in the class he taught in 1968. Initially, it was all based on randomization, unbiasedness, Fisher’s test, etc. But the concepts had to be flipped into or- dinary least squares (OLS) regression and analysis of variance tables, because nobody could compute any- thing difficult back then. One of the lessons in Bill’s class in regression and experimental design was to use the abbreviated Dolittle method to invert matrices, by hand! So you really couldn’t do randomization tests in any generality. The other reason I was interested in ex- periments and social science was my family history. There was always this legal question lurking: “But for this alleged misconduct, what would have happened?”
 
+Don：一部分是对的。在那个时候，潜在结果的注释在我脑袋里，因为那个是Cochran在1968年他的随机实验课堂上讨论的方法。最开始，全部都是基于随机，无偏，Fisher检验等等。但是这些概念必须要被注入普通最小二乘回归，方差分析表，因为没人能计算出任何困难的东西。在Bill的一堂回归和实验设计课上，用缩略的Dolittle方法求矩阵的逆，徒手！所以你真的对随机检验不能做任何普适的推广。另一个让我对实验和社会科学感兴趣的原因是我的家庭史。总是有这样一个法律问题埋在我心里：“对于这个涉嫌渎职，会发生什么呢？”
+
 Fan: What was your first job after getting your Ph.D. degree in 1970?
+
+Fan: 在你1970年拿到博士学位你的第一份工作是什么？
 
 Don: I stayed at Harvard for one more year, as an instructor in the Statistics Department, partly sup- ported by teaching, partly supported by the Cambridge Project, which was an ARPA funded Harvard–MIT joint effort; the idea was to bring the computer science technologies of MIT and the social sciences research of Harvard together to do wonderful things in the social sciences. In the Statistics Department, I was coteaching with Bob Rosenthal the “Statistics for Psychologists” course that, ironically, the Social Relations Department wanted me to take five years earlier, thereby driving me out of their department! Bob had, and has, tremendous intuition for experimental design and other practical is- sues, and we have written many things together.
 
+Don：我在哈佛多待了一年，作为统计系的讲师，一部分工资来自教学，一部分来自剑桥项目，这是一个ARPA支持的哈佛-麻省理工联合项目；旨在将麻省理工的计算机科学技术和哈佛大学的社会科学研究结合到一起在社会科学上做一些有趣的事情。在统计系，我和Bob Rosenthal一起教“统计心理学”，讽刺的是，5年前社会科学院就想让我上这门课，为了这个，他们把我逐出了他们院！Bob对于实验设计和其他一些实践问题很有直觉，我们一起写了很多东西。
+
+# THE ETS DECADE: MISSING DATA, EM AND CAUSAL INFERENCE
+# ETS的10年：缺失数据，EM和因果推断
+
+Fan: After that one year, you went for a position at ETS in Princeton instead of a junior faculty position in a research university. It was quite an unusual choice, given that you could probably have found a position in a respected university statistics department easily.
+
+Fan: 一年后，你在普林斯顿的ETS找了一个职位，而不是在大学里做高级教职。这看起来是个很不寻常的选择，因为你可能已经在一个非常有声誉的统计系很容易地找到了一个教职。
+
+Don: Right—many people thought I was goofy. I did have several good offers, one was to stay at Harvard, and another was to go to Dartmouth. But I met Al Beaton, who was later my boss at ETS in Princeton, at a conference in Madison, Wisconsin, and he offered me a job, which I took. Al had a doctorate in education at Harvard, and had worked with Dempster on compu- tational issues, such as the “sweep operator.” He was a great guy with a deep understanding of practical com- puting issues. Also, he appreciated my research. Be- cause I was an undergrad at Princeton, it was almost like going home. For several years, I taught one course at Princeton. Between the jobs at ETS and Princeton, I was earning twice what the Harvard salary would have been, which allowed me to buy a house on an acre and a half, with a garage for rebuilding an older Mer- cedes roadster, etc. A different style of life from that in Cambridge.
+
+Don：很多人认为我是一个傻瓜。我有很多不错的机会，一个是待在哈佛，另一个是去达特茅斯。但我遇到了Al Beaton，后来他是我在普林斯顿ETS的老板，在威斯康星麦迪逊的一个会议上，他给了我这份工作，我接受了。Al在哈佛有一个博士学位，他跟Dempster做一些计算问题，例如“扫描算子”。他是个很好的人，并且对计算问题有很深刻的理解，这大概就像是回家。几年来，我在普林斯顿教一门课。在ETS和普林斯顿的工作之间，我赚了在哈佛的工资的两杯，这让我买了一个1.5英亩的房子，有一个车库，改造旧的奔驰跑车，等等。这是和在剑桥完全不同的生活方式。
+
+Fan: You seem to have had a lot of freedom to pur- sue research at the ETS. What was your responsibility at ETS?
+
+Fan: 看起来在ETS做研究有很多自由。你在ETS的职责是什么？
+
+Don: The position at ETS was like an academic posi- tion with teaching responsibilities replaced by consult- ing on ETS’s social science problems, including psy- chological and educational testing ones. I found con- sulting much easier for me than teaching, and ETS had interesting problems. Also there were many very good people around, like Fred Lord, who was highly respected in psychometrics. The Princeton faculty was great, too: Geoffrey Watson (of the Durbin–Watson statistic) was the chair; Peter Bloomfield was there as a junior faculty member before he moved to North Car- olina; and of course Tukey was still there, even though he spent a lot of time at Bell Labs. John was John, hav- ing a spectacular but very unusual way of thinking— obviously a genius. Stuart Hunter was in the Engineer- ing School then. These were fine times for me, with tremendous freedom to pursue what I regarded as im- portant work.
+
+Don：在ETS的工作有点像教职，只是在做ETS的社会科学的咨询而不是教学了，包括心理的教育的问题。我发现咨询比教学对我来说简单，ETS有很多有意思的问题。而且周围有很多比错的人，比如Fred Lord，在心理测验学上很有名望。普林斯顿的老师们也很好：Geoffrey Watson(of the Durbin–Watson statistic)是系主任；Peter Bloomfield在搬到北卡之前是初级教授；Tukey一直在那，即使他在Bell实验室花了很多时间。John是John，有很不寻常的思考方式，很显然是个天才。Stuart Hunter后来去了工程学院。这些对我来说都是好时光，有大量自由的时间来追求我认为重要的工作。
+
+Fabri: By any measure, your accomplishments in the ETS years were astounding. In 1976, you published the paper “Inference and Missing Data” in Biometrika (Rubin, 1976) that lays the foundation for modern anal- ysis of missing data; in 1977, with Arthur Dempster and Nan Laird, you published the EM paper “Max- imum Likelihood from Incomplete Data via the EM Algorithm” in JRSS-B (Dempster, Laird and Rubin, 1977); in 1974, 1977, 1978, you published a series of papers that lay the foundation for the Rubin Causal Model (Rubin, 1974, 1977, 1978a). What was it like for you at that time? How come so many groundbreak- ing ideas exploded in your mind at the same time?
+
+Fabri: 通过一些衡量，你在ETS的几年的成就是令人震惊的。在1976年，你在Biometrika上发表了“推断和却是数据”(Rubin, 1976)，为现代缺失数据的分析奠定了基础；在1977年，你和Arthur Dempster，Nan Laird一起在JRSS-B上发表了“通过EM算法从不完整数据估计极大似然”(Dempster, Laird and Rubin, 1977)；在1974，1977，1978年，你发表了一系列奠定了因果模型基础的文章(Rubin, 1974, 1977, 1978a)。你在那个时候是什么样的？你是如何在同一时间作出这么多开创性的工作的？
+
+Don: Probably the most important reason is that I al- ways worried about solving real problems. I didn’t read the literature to uncover a hot topic to write about. I al- ways liked math, but I never regarded much of math- ematical statistics as real math—much of it is just so tedious. Can you keep track of these epsilons?
+
+Don：可能最重要的原因是我总是很担忧解决实际问题。我没有读过写热门话题的文献。我一直喜欢数学，但是我不认为数理统计是真正的数学，大部分数学问题是很枯燥的。你能一直追溯这些epsilon吗？
+
+Fabri: There is no coincidence that all these papers share the common theme of missing data.
+
+Fabri: 毫无巧合的所有这些论文都有共同的主题：缺失数据。
+
+Don: That’s right. That theme arose when I was a graduate student. The first paper I wrote on missing data, which is also my first sole-authored paper, was on analysis of variance designs, a quite algorithmic pa- per. It was always clear to me, from the experimental design course from Cochran that you should set up ex- periments as missing data problems, with all the poten- tial outcomes under the not-taken treatments missing. But nobody did observational studies that way, which seemed very odd to me. Indeed, nobody was using po- tential outcomes outside the context of randomized ex- periments, and even there, most writers dropped poten- tial outcomes in favor of least squares when actually doing things.
+
+Don：是的。在我还是研究生的时候这个主题就出现了。我写的第一篇关于缺失数据的论文，也是我的第一篇唯一作者的论文，是关于实验设计的方差分析，一个非常偏算法的论文。我很清楚，从Cochran的实验课上，你应该把实验问题当作缺失数据问题，对于没有处理的，潜在结果是缺失的。但是没有人做观测的研究，对于我来说很奇怪。事实上，没有人用随机实验以外的潜在结果，甚至，很多学者在真正做事情的时候为了支持最小二乘，直接丢掉潜在结果。
+
+Fan: What was the state of research on missing data before you came into the scene?
+
+Fan: 在你进入这个领域之前，缺失数据是什么研究状态？
+
+Don: It was extremely ad hoc. The standard ap- proach to missing data then was comparing the biases of filling in the means, or of regression imputation un- der different situations, but almost always under an im- plicit “missing completely at random” assumption. The purely technical sides of these papers are solid. But I found there were always counter examples to the pro- priety of the specific methods being considered, and to explore them, one almost needed a master’s thesis for each situation. I would rather address the class of prob- lems with some generality. There is a mechanism that creates missing data, which is critical for deciding how to deal with the missing data. That idea of formal indi- cators for missing data goes way back in the contexts of experimental design and survey design. I am consis- tently amazed how this was not used in observational studies until I did so in the 1970s; maybe someone did, but I’ve looked for years and haven’t found anything. But probably because the missing data paper was done in a relatively new way, I had great difficulty in getting it published (more details in Rubin, 2014a).
+
+Don：它非常临时。标准的解决缺失数据的方法是比较用均值填补后的偏差，或者在不同的情况下，用回归插补，但是都要基于“随机缺失”的假设。这些论文在纯的技术上都非常扎实。但是我发现对于科学的方法，总有反例，为了探索这个问题，可能每种情况都是一篇硕士论文。我宁愿用一种更普适的方法来解决这类问题。有一个机制能够生成缺失数据，这对如何解决缺失数据很关键。那个思想可以还原到实验设计和调查设计上。指直到我20世纪70年代做这件事的时候，我很惊讶为什么没有用到观察研究上；可能有人做了，但这么多年我什么都没找到。但可能因为缺失数据的论文相对比较新，发表的过程中我遇到很大的困难(more details in Rubin, 2014a)。
+
+Fan: The EM algorithm is another milestone in mod- ern statistics; it is also relevant in computer science and one of the most important algorithm in data mining. Though similar ideas had been used in several specific contexts before, nobody had realized the generality of EM. How did Dempster, Laird and you discover the generality?
+
+Fan: EM算法是现代统计的另一个里程碑；它也和计算机相关，是数据挖掘中最重要的算法之一。虽然在这之前有类似的想法，但是没有人意识到EM算法的普适性。你和Dempster, Laird是如何发现EM的普适性的？
+
+Don: In those early years at ETS, I had the free- dom to remain in close contact with the Harvard peo- ple, Cochran, Dempster, Holland and Rosenthal, which was very important to me. I always enjoyed talking to Dempster, who is a very principled and deep thinker. I was able to arrange some consulting projects at ETS to bring him to Princeton. Once we were talking about some missing data problem, and we started discussing filling these values in, but I knew it wouldn’t work in generality. I pointed to a paper by Hartley and Hock- ing (1971), where they deserted the approach of itera- tively filling in missing values, as in Hartley (1956) for the counted data case, and went to Newton–Raphson, I think, in the normal case. Even though aspects of EM were known for years, and Hartley and others were sort of nibbling around the edges of EM, apparently nobody put it all together as a general algorithm. Art and I real- ized that you have to fill in sufficient statistics. I had all these examples like t distributions, factor analysis (the ETS guys loved that), latent class models. And Art had a great graduate student, Nan Laird, available to work on parts of it, and we started writing it up. The EM paper was accepted right away by JRSS-B, even with invited discussions.
+
+Don：在ETS的早些年，我可以自由的和哈佛的人联系，比如Cochran, Dempster, Holland和Rosenthal，这对我来说非常重要。我非常喜欢和Dempster聊天，他很有原则思考问题很深入。我能在ETS安排一些咨询项目带他到普林斯顿。一次我们聊缺失数据的问题，我们开始讨论插补值，但是我知道它不具有普适性。我指出一篇论文，Hartley和Hocking (1971)写的，里面用了迭代的方法来插补缺失数据，正如Hartley（1956）的计数数据的情形，后来发展到牛顿算法，我认为，是一个普遍情形。即使EM的种种已经被知道很多年了，Hartley和其他人有点咬在EM的边缘，很明显没有人把它总结成一个普适性的算法。Art和我意识到必须填补充分统计量。我做了所有的例子，如t分布，因子分析（ETS的人们喜欢），隐类模型。Art有一个很好的研究生，Nan Laird，可以做一部分工作，我们开始写起来。EM被JRSS-B接收，并且被邀请讨论。
+
+Fan: Now let’s talk more about causal inference. You are known for proposing the general potential out- come framework. It was Neyman who first mentioned the notation of potential outcomes in his Ph.D. thesis (Neyman, 1990), but the notation seemed to have long been neglected.
+
+Fan: 让我们再说说因果推断。你因为提出了普适的潜在结果框架而出名。最初是Neyman在他的博士论文里提到的，但是这个注释似乎被忽视了很久。
+
+Don: Yes, it was ignored outside randomized exper- iments. Within randomized studies, the notion became standard and used, for example, in Kempthorne’s work, but as I mentioned earlier, ignored otherwise.
+
+Don：是的，它被忽略在随机试验之外了。在随机领域，这个概念变得标准和通用，比如，在Kempthorne的工作中，但是在我之前提到的，它被忽略了。
+
+Fan: Were you aware of Neyman’s work before?
+
+Fan: 你之前注意到Neyman的工作了吗？
+
+Don: No. I wasn’t aware of his work defining po- tential outcomes until 1990 when his Ph.D. thesis was translated into English, although I attributed much of the perspective to him because of his work on surveys in Neyman (1934) and onward (see Rubin, 1990a, fol- lowed by Rubin, 1990b).
+
+Don：不。1990年以前，我都没有注意到他的工作中定义了潜在结果，知道他的博士论文被翻译成英文，虽然我对他在调查上Neyman (1934)的工作充满了敬佩。
+
+Fabri: You actually met Neyman when you visited Berkeley in the mid-1970s. During all those lunches, had you ever discussed causal inference and potential outcomes with him?
+
+Fabri: 事实上你在20世纪70年代中去伯克利访问见到了Neyman。在吃午饭的时候，你和他讨论过因果推断和潜在结果么？
+
+Don: I did. In fact, I had an office right next to his. Neyman came to Berkeley in the late 30s. He was very impressive, not only as a mathematical statistician, but also as an individual. There was a tremendous aura about him. Shortly after arriving in Berkeley, I gave a talk on missing data and causal inference. The next day, I went to lunch with Neyman and I said something like, “It seems to me that formulating causal prob- lems in terms of missing potential outcomes is an ob- vious thing to do, not just in randomized experiments, but also in observational studies.” Neyman answered to the effect that (remarkable in hindsight because he did so without acknowledging that he was the person who first formulated potential outcomes), “No, causal- ity is far too speculative in nonrandomized settings.” He repeated something like this quote from his biog- raphy, “...Without randomization an experiment has little value irrespective of the subsequent treatment.” (Also see my comment on this conversion in Rubin, 2010.) Then he went to say politely but firmly, “Let’s not talk about that, let’s instead talk about astronomy.” He was very into astronomy at the time.
+
+Don：讨论了。事实上，我的办公室在他右边。Neyman在30年代末来到伯克利。他给人印象深刻，不仅仅是一个数理统计学家，也很有个人魅力。他有一种巨大的光环。在来到伯克利不久，我做了一个缺失数据和因果推断的演讲。第二天，我和Neyman吃午饭，我说，“看起来就缺失潜在结果的因果推断问题是很明显要做的事情，不仅仅在随机实验中，在观测研究中也应该做。”Neyman回答（事后很显著，因为他这么做并没有把自己当作第一个提出潜在结果的人），“不，因果在非随机的设置里过于投机。”他在他的自传中重复了类似的话，“。。。没有随机性的实验的后续处理是没有价值的。”(Also see my comment on this conversion in Rubin, 2010.)然后他很有礼貌很严肃的说，“我们不讨论这个，我们讨论天文学。”那个时候他很擅长天文学。
+
+Fabri: You probably learned the reasons why he was so involved in the frequentist approach.
+
+Fabri: 你可能知道了为什么他这么支持频率派方法。
+
+Don: Yes. I remember we once had a conversation about what confidence intervals really meant and why the formal Neyman–Pearson approach seemed irrele- vant to me. He said something like, “You misinterpret what we have done. We were doing the mathematics; go back and read my 1934 paper where I first defined a confidence interval.” He defined it as a procedure that has the correct coverage for all prior distributions (see page 589, Neyman, 1934). If you think of that, you are forced to include all point mass priors and, therefore, you are forced to do Neyman–Pearson. He went on to say (approximately), “If you are a real scientist with a class of problems to work on, you don’t care about all point-mass priors, you only care about the priors for the class of problems you will be working on. But if you are doing the mathematics, you can’t talk about the problems you or anyone is working on.” I tried to make this point in a comment (Rubin, 1995), but it didn’t seem to resonate to others.
+
+Don：是的。我记得有一次我们谈论置信区间的真实含义，以及为什么Neyman–Pearson的方法看起来跟我的毫不相关。他说，“你错误地解释了我们已经做的。我们做的是数学；回去读我1934年的论文，里面我定义了置信区间。”他把它定义为对所有先验分布有正确覆盖的过程(see page 589, Neyman, 1934)。如果你这么认为，你必须包括所有点的先验，你必须做Neyman–Pearson。他继续说（大概），“如果你是一个真正的科学家，在研究一类问题，你不要关注所有点的先验，你只需要关注你在做的那类问题的先验。但是如果你在做数学，你不能谈论你或者其他人在做的东西。”我试图在一篇评论中指出这一点(Rubin, 1995)，但似乎并没有引起共鸣。
+
+Fabri: In his famous 1986 JASA paper, Paul Hol- land coined the term “Rubin Causal Model (RCM),” referring to the potential outcome framework to causal inference (Holland, 1986). Can you explain why, if you think so, the term “Rubin Causal Model” is a fair de- scription of your contribution to this topic?
+
+Fabri: 在1986年很著名的JASA文章里，Paul Holland提出了“Rubin因果模型（RCM）”，指因果推断潜在的结果框架(Holland, 1986)。你能解释下为什么，如果你这么认为的话，“Rubin因果模型”是你对这个话题的贡献的相对描述？
+
+Don: Actually Angrist, Imbens and I had a rejoin- der in our 1996 JASA paper (Angrist, Imbens and Ru- bin, 1996), where we explain why we think it is fair. Neyman is pristinely associated with the development of potential outcomes in randomized experiments, no doubt about that. But in the 1974 paper (Rubin, 1974), I made the potential outcomes approach for defining causal effects front and center, not only in randomized experiments, but also in observational studies, which apparently had never been done before. As Neyman told me back in Berkeley, in some sense, he didn’t believe in doing statistical inference for causal effects outside of randomized experiments.
+
+Don：事实上Angrist, Imbens和我在我们1996年的JASA论文(Angrist, Imbens and Ru- bin, 1996)里一起反驳了，我们解释了为什么我们认为是相对的。Neyman是最初和随机实验中的潜在结果的发展相关的人，这毫无疑问。但是在1974年的文章里(Rubin, 1974)，我用潜在结果的方法来定义因果效应的前中，这很明显，之前没做过。正如Neyman在伯克利告诉我的，在某种意义上，他不相信在随机实验之外做因果效应的统计推断。
+
+Fan: Also there are features in the RCM, such as the definition of the assignment mechanism, that belong to you.
+
+Fan: RCM也有很多特点，比如分配机制的定义，这个属于你。
+
+Don: Yes, it was crucial to realize that random- ized experiments are embedded in a larger class of as- signment mechanisms, which was not in the literature. Also, in the 1978 paper (Rubin, 1978a), I proposed three integral parts to this RCM framework: potential outcomes, assignment mechanisms, and a (Bayesian) model for the science (the potential outcomes and co- variates). The last two parts were not only something that Neyman never did, he possibly wouldn’t even like the third part. In fact, I think it is unfair to attribute something to someone who is dead, who may not ap- prove of the content being attributed. If the funda- mental idea is clear, such as with Fisher’s random- ization test of a sharp null hypothesis, sure, attribute that idea to Fisher no matter what the test statistic, as in Brillinger, Jones and Tukey (1978). Panos Toulis (a fine Harvard Ph.D. student) helped me track down this statement that I remembered reading in my ETS days from a manuscript John gave to me:
+
+Don：是的，意识到随机实验是嵌套在一个大的分配机制中是很关键的，这个不在论文里。在1978年的论文里(Rubin, 1978a)，我给RCM框架提出了3个完整的部分：潜在结果，分配机制，一个贝叶斯模型（潜在结果和协变量）。后两个部分不仅是Neyman从来没做过的，他很可能甚至不喜欢第三部分。事实上，我认为我认为把某事归因于死去的人是不公平的，他们可能不赞成被归因的内容。如果基本的想法很清晰，例如Fisher的随机检验有尖锐的零假设，把这个想法归因于Fisher，不管是什么统计检验，如Brillinger, Jones and Tukey (1978)中说的。Panos Toulis（一个很好的哈佛的博士生）帮我追溯了这个陈述，我记得在ETS的那些日子读了John给我的一个稿子：
+
+“In the precomputer era, the fact that almost all work could be done once and for all was of great impor- tance. As a consequence, the advantages of randomiza- tion approaches—except for those few cases where the randomization distributions could be dealt with once and for all—were not adequately valued.
+
+“在前计算机时代，几乎所有的工作都能被做，所有的都很重要。因此，随机方法的优势，除了那些很少数的情况，随机分布能被处理，对于大多数，并没有足够的价值。
+
+One reason for this undervaluation lay in the fact that, so long as randomization was confined to spe- cially manageable key statistics, there seemed no way to introduce into the randomization approach the insights—some misleading and some important and valuable—into what test statistics would be highly sen- sitive to the changes that it was most desired to detect. The disappearance of this situation with the rise of the computer seems not to have received the attention that it deserves.” (Brillinger, Jones and Tukey, 1978, Chap- ter 25, page F-5.)
+
+一个被低估的原因是，只要随机化被限制在一些特定的容易处理的关键统计问题上，看起来没办法把随机方法的见解引入。一些误导的，一些重要的和有价值的见解。检验统计量对变化很敏感，这是最想要检验的。随着计算机的起步，这种现象消失了，看起来并没有引起它值得的关注度。”(Brillinger, Jones and Tukey, 1978, Chap- ter 25, page F-5.)
+
+Fabri: Here I am quoting an interesting question by Tom Belin regarding potential outcomes: “Do you be- lieve potential outcomes exist in people as fixed quan- tities, or is the notion that potential outcomes are a de- vice to facilitate causal inference?”
+
+Fabri: 我在这引用Tom Belin提的一个有趣的问题，关于潜在结果：“你认为潜在结果是固定数值存在于人们中还是解决因果推断问题的一个手段？”
+
+Don: Definitely the latter. Among other things, a per- son’s potential outcomes could change over time, and how do we know the people who were studied in the past are still exchangeable with people today? But there are lots of devices like that in science.
+
+Don：当然是后者。在其他事情中，一个人的潜在结果可能一直在变，我们怎么知道我们过去研究的人和现在研究的一直可交换？但是在科学中有很多那样的手段。
+
+Fan: In the RCM, cause/intervention should always be defined before you start the analysis. In other words, the RCM is a framework to investigate the “effects of a cause,” but not the “causes of an effect.” Some criti- cize this as a major limitation. Do you regard this as a limitation? Do you think it is ever possible to draw in- ference on the causes of effects from data, or is it, per se, an interesting question worth further investigation?
+
+Fan: 在RCM中，原因／干预在开始分析前就应该被定义。换句话说，RCM是一个调查“原因的效应”的框架，而不是“一个影响的原因”。一些人批评这这，说是主要的局限。你觉得这是个局限吗？你认为可能从效应中推断原因吗？或者，它是个值得研究的有意思的问题吗？
+
+Don: I regard “the cause” of an event topic as more of a cocktail conversation topic than a scientific in- quiry, because it leads to an essentially infinite regress. Someone says, “He died of lung cancer because he smoked three packs a day”; then someone else coun- ters, “Oh no, he died of lung cancer because both of his parents smoked three packs a day and, therefore, there was no hope of his doing anything other than smoking three packs a day”; then another one says, “No, no, his parents smoked because his grandparents smoked— they lived in North Carolina where, back then, every- one smoked three packs a day, so the cause is where the grandparents lived,” and so on. How far back should you go? You can’t talk sensibly about the cause of an event; you can talk about “but for that cause (and there can be many ‘but for’s), what would have happened?” All these questions can be addressed hypothetically. But the cause? The notion is meaningless to me.
+
+Don：我觉得一个事件的原因，这个话题更像喝酒时的谈话，而不是一个科学的谈话，因为它会导致无限倒退。有人说，“他死于肺癌是因为一天抽3包烟”；有人反驳，“不，他死于肺癌是因为他的父母每天抽3包烟，因此，除了抽3包烟以外，他没希望了”；另一个人说，“不，他的父母抽烟是因为他的祖父母抽烟，他们生活在北卡，那里的每个人都是一天抽3包烟，所以原因是他的祖父母居住的地方”等等。你要追溯到多远？你不能说一个事情的原因；你可以说“除了那个原因（能有很多“除了”）”，可能会发生什么？所有这些问题都能用假设解决。但是原因？这个概念对我来说没意义。
+
+Fabri: Do you feel that you benefit from knowing about history of statistics when you are thinking about fundamentals of statistics?
+
+Fabri: 你觉得当你思考统计学的基础问题时，你了解统计学的发展历史对你有帮助吗？
+
+Don: I know some history, but not a large amount. The most important lessons occur when I feel that I understand why one of the giants, like Fisher or Ney- man, got something wrong. When you understand why a mediocre thinker got something wrong, you learn lit- tle, but when you understand why a genius got some- thing wrong, you learn a tremendous amount.
+
+Don：我知道一些历史，但是不多。最重要的课程发生在当我感觉到我理解了为什么像Fisher或者Neyman这样的天才，为什么会出错。当你理解了为什么一个平庸的思想家会出错，你学到的还是少，但是当你理解了为什么天才会出错，你就学到很多了。
