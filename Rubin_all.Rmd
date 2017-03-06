@@ -101,7 +101,7 @@ Fan: 但最终你选择了哈佛。
 
 Don: Well, we all make strange decisions. The rea- son was that I had an east-coast girlfriend who had an- other year in college.
 
-Don：我们所有人都做奇怪的决定。原因是我在东海岸的女朋友还要再读一年。
+Don：我们所有人都做奇怪的决定。原因是我在东海岸的女朋友还要再读一年大学。
 
 # GRADUATE YEARS AT HARVARD
 
@@ -224,7 +224,7 @@ Fan: 在你进入这个领域之前，缺失数据是什么研究状态？
 
 Don: It was extremely ad hoc. The standard ap- proach to missing data then was comparing the biases of filling in the means, or of regression imputation un- der different situations, but almost always under an im- plicit “missing completely at random” assumption. The purely technical sides of these papers are solid. But I found there were always counter examples to the pro- priety of the specific methods being considered, and to explore them, one almost needed a master’s thesis for each situation. I would rather address the class of prob- lems with some generality. There is a mechanism that creates missing data, which is critical for deciding how to deal with the missing data. That idea of formal indi- cators for missing data goes way back in the contexts of experimental design and survey design. I am consis- tently amazed how this was not used in observational studies until I did so in the 1970s; maybe someone did, but I’ve looked for years and haven’t found anything. But probably because the missing data paper was done in a relatively new way, I had great difficulty in getting it published (more details in Rubin, 2014a).
 
-Don：它非常临时。标准的解决缺失数据的方法是比较用均值填补后的偏差，或者在不同的情况下，用回归插补，但是都要基于“随机缺失”的假设。这些论文在纯的技术上都非常扎实。但是我发现对于科学的方法，总有反例，为了探索这个问题，可能每种情况都是一篇硕士论文。我宁愿用一种更普适的方法来解决这类问题。有一个机制能够生成缺失数据，这对如何解决缺失数据很关键。那个思想可以还原到实验设计和调查设计上。指直到我20世纪70年代做这件事的时候，我很惊讶为什么没有用到观察研究上；可能有人做了，但这么多年我什么都没找到。但可能因为缺失数据的论文相对比较新，发表的过程中我遇到很大的困难(more details in Rubin, 2014a)。
+Don：它非常临时。那时标准的解决缺失数据的方法是比较用均值填补后的偏差，或者在不同的情况下，用回归插补，但是都要基于“随机缺失”的假设。这些论文在纯的技术上都非常扎实。但是我发现对于科学的方法，总有反例，为了探索这个问题，可能每种情况都需要写一篇硕士论文。我宁愿用一种更普适的方法来解决这类问题，缺失数据的生成存在一个机制，它对于如何处理缺失数据很关键。那个思想可以还原到实验设计和调查设计上。指直到我20世纪70年代做这件事的时候，我很惊讶为什么没有用到观察研究上；可能有人做了，但这么多年我什么都没找到。但可能因为缺失数据的论文相对比较新，发表的过程中我遇到很大的困难(more details in Rubin, 2014a)。
 
 Fan: The EM algorithm is another milestone in mod- ern statistics; it is also relevant in computer science and one of the most important algorithm in data mining. Though similar ideas had been used in several specific contexts before, nobody had realized the generality of EM. How did Dempster, Laird and you discover the generality?
 
@@ -260,31 +260,30 @@ Don：讨论了。事实上，我的办公室在他右边。Neyman在30年代末
 
 Fabri: You probably learned the reasons why he was so involved in the frequentist approach.
 
-Fabri: 你可能知道了为什么他这么支持频率派方法。
+Fabri: 你可能知道了他为什么这么支持频率派方法。
 
 Don: Yes. I remember we once had a conversation about what confidence intervals really meant and why the formal Neyman–Pearson approach seemed irrele- vant to me. He said something like, “You misinterpret what we have done. We were doing the mathematics; go back and read my 1934 paper where I first defined a confidence interval.” He defined it as a procedure that has the correct coverage for all prior distributions (see page 589, Neyman, 1934). If you think of that, you are forced to include all point mass priors and, therefore, you are forced to do Neyman–Pearson. He went on to say (approximately), “If you are a real scientist with a class of problems to work on, you don’t care about all point-mass priors, you only care about the priors for the class of problems you will be working on. But if you are doing the mathematics, you can’t talk about the problems you or anyone is working on.” I tried to make this point in a comment (Rubin, 1995), but it didn’t seem to resonate to others.
 
-Don：是的。我记得有一次我们谈论置信区间的真实含义，以及为什么Neyman–Pearson的方法看起来跟我的毫不相关。他说，“你错误地解释了我们的工作。我们做的是数学；回去读我1934年的论文，里面我定义了置信区间。”他把它定义为对所有先验分布有正确覆盖的过程(see page 589, Neyman, 1934)。如果你这么认为，你必须包括所有点的先验，你必须做Neyman–Pearson。他继续说（大概），“如果你是一个真正的科学家，在研究一类问题，你不要关注所有点的先验，你只需要关注你在做的那类问题的先验。但是如果你在做数学，你不能谈论你或者其他人在做的东西。”我试图在一篇评论中指出这一点(Rubin, 1995)，但似乎并没有引起共鸣。
+Don：是的。我记得有一次我们谈论置信区间的真实含义，以及为什么Neyman–Pearson的方法看起来跟我的毫不相关。他说，“你错误地理解了我们的工作。我们做的是数学；回去读我1934年的论文，那里面我第一次定义了置信区间。”他把它定义为对所有先验分布有正确覆盖的过程(see page 589, Neyman, 1934)。如果你这么认为，你必须包括所有点的先验，因此你必须做Neyman–Pearson。他继续说（大概），“如果你是一个真正的科学家，在研究一类问题，你不要关注所有点的先验，你只需要关注你在做的那类问题的先验。但是如果你在做数学，你不能谈论你或者其他人在做的东西。”我试图在一篇评论中指出这一点(Rubin, 1995)，但似乎并没有引起共鸣。
 
 Fabri: In his famous 1986 JASA paper, Paul Hol- land coined the term “Rubin Causal Model (RCM),” referring to the potential outcome framework to causal inference (Holland, 1986). Can you explain why, if you think so, the term “Rubin Causal Model” is a fair de- scription of your contribution to this topic?
 
-Fabri: 在1986年很著名的JASA文章里，Paul Holland提出了“Rubin因果模型（RCM）”，指因果推断潜在的结果框架(Holland, 1986)。你能解释下为什么，如果你这么认为的话，“Rubin因果模型”是你对这个话题的贡献的相对描述？
-
+Fabri: 在他很著名的1986年发表的JASA文章里，Paul Holland提出了“Rubin因果模型（RCM）”，指因果推断潜在的结果框架(Holland, 1986)。你能解释下为什么，如果你这么认为的话，“Rubin因果模型”是你对这个话题的贡献的相对描述？（应该是公正的描述吧。。）
 Don: Actually Angrist, Imbens and I had a rejoin- der in our 1996 JASA paper (Angrist, Imbens and Ru- bin, 1996), where we explain why we think it is fair. Neyman is pristinely associated with the development of potential outcomes in randomized experiments, no doubt about that. But in the 1974 paper (Rubin, 1974), I made the potential outcomes approach for defining causal effects front and center, not only in randomized experiments, but also in observational studies, which apparently had never been done before. As Neyman told me back in Berkeley, in some sense, he didn’t believe in doing statistical inference for causal effects outside of randomized experiments.
 
 Don：事实上Angrist, Imbens和我在我们1996年的JASA论文(Angrist, Imbens and Ru- bin, 1996)里一起反驳了，我们解释了为什么我们认为是相对的。Neyman是最初和随机实验中的潜在结果的发展相关的人，这毫无疑问。但是在1974年的文章里(Rubin, 1974)，我用潜在结果的方法来定义因果效应的前中，这很明显，之前没做过。正如Neyman在伯克利告诉我的，在某种意义上，他不相信在随机实验之外做因果效应的统计推断。
 
 Fan: Also there are features in the RCM, such as the definition of the assignment mechanism, that belong to you.
 
-Fan: RCM也有很多特点，比如分配机制的定义，这个属于你。
+Fan: RCM也有很多特点，比如分配机制的定义，这是你提出的。
 
 Don: Yes, it was crucial to realize that random- ized experiments are embedded in a larger class of as- signment mechanisms, which was not in the literature. Also, in the 1978 paper (Rubin, 1978a), I proposed three integral parts to this RCM framework: potential outcomes, assignment mechanisms, and a (Bayesian) model for the science (the potential outcomes and co- variates). The last two parts were not only something that Neyman never did, he possibly wouldn’t even like the third part. In fact, I think it is unfair to attribute something to someone who is dead, who may not ap- prove of the content being attributed. If the funda- mental idea is clear, such as with Fisher’s random- ization test of a sharp null hypothesis, sure, attribute that idea to Fisher no matter what the test statistic, as in Brillinger, Jones and Tukey (1978). Panos Toulis (a fine Harvard Ph.D. student) helped me track down this statement that I remembered reading in my ETS days from a manuscript John gave to me:
 
-Don：是的，意识到随机实验是嵌套在一个大的分配机制中是很关键的，这个不在论文里。在1978年的论文里(Rubin, 1978a)，我给RCM框架提出了3个完整的部分：潜在结果，分配机制，一个贝叶斯模型（潜在结果和协变量）。后两个部分不仅是Neyman从来没做过的，他很可能甚至不喜欢第三部分。事实上，我认为我认为把某事归因于死去的人是不公平的，他们可能不赞成被归因的内容。如果基本的想法很清晰，例如Fisher的随机检验有尖锐的零假设，把这个想法归因于Fisher，不管是什么统计检验，如Brillinger, Jones and Tukey (1978)中说的。Panos Toulis（一个很好的哈佛的博士生）帮我追溯了这个陈述，我记得在ETS的那些日子读了John给我的一个稿子：
+Don：是的，意识到随机实验是嵌套在一个大的分配机制中是很关键的，但这个思路并未在论文里提过。在1978年的论文里(Rubin, 1978a)，我给RCM框架提出了3个完整的部分：潜在结果，分配机制，一个贝叶斯模型（潜在结果和协变量）。后两个部分不仅是Neyman从来没做过的，他很可能甚至不喜欢第三部分。事实上，我认为我认为把某事归因于死去的人是不公平的，他们可能不赞成被归因的内容。但如果基本的想法很清晰，例如Fisher的随机检验有尖锐的零假设，那么把这个想法归因于Fisher就是很自然的，不管是什么具体统计检验，如Brillinger, Jones and Tukey (1978)中说的。Panos Toulis（一个很好的哈佛的博士生）帮我追溯了这个陈述，我记得在ETS的那些日子读了John给我的一个稿子：
 
 “In the precomputer era, the fact that almost all work could be done once and for all was of great impor- tance. As a consequence, the advantages of randomiza- tion approaches—except for those few cases where the randomization distributions could be dealt with once and for all—were not adequately valued.
 
-“在前计算机时代，几乎所有的工作都能被做，所有的都很重要。因此，随机方法的优势，除了那些很少数的情况，随机分布能被处理，对于大多数，并没有足够的价值。
+“在前计算机时代，那些只需做一次的工作更受重视。因此，随机方法的优势，除了那些很少数的如随机分布很一次就能处理好的工作，对于大多数复杂情况，并没有足够的价值。
 
 One reason for this undervaluation lay in the fact that, so long as randomization was confined to spe- cially manageable key statistics, there seemed no way to introduce into the randomization approach the insights—some misleading and some important and valuable—into what test statistics would be highly sen- sitive to the changes that it was most desired to detect. The disappearance of this situation with the rise of the computer seems not to have received the attention that it deserves.” (Brillinger, Jones and Tukey, 1978, Chap- ter 25, page F-5.)
 
